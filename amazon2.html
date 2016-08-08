@@ -1,0 +1,34 @@
+<html>
+<head>
+
+
+</head>
+<body>
+
+
+<button onclick ="fp">Find</button>
+<script src= "/home/anoop/Desktop/Assignments/amazon/productcat.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="/home/anoop/Desktop/Assignments/amazon/shoplist.js"> </script>
+
+
+
+<script>
+
+function fp()
+{
+
+_.each(shop_list, function(num)
+
+		{ 
+						_.each(product, function(val)
+					{
+						var itemlist =_.where(val, name:num.name);
+					})
+
+		})
+document.write(itemlist);
+}
+
+
+</script>
