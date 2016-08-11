@@ -1,21 +1,21 @@
-var shop_list=[
+var shoplist= [
 
 {
 
-	name : candle,
+	name : "candle",
 	qty  :    3, 
 
 },
 {
 
-name: books,
+name: "books",
 qty:  5,
 
 
 },
 {
 
-	name:shoes,
+	name:"shoes",
 	qty:6,
 }
 
@@ -26,25 +26,25 @@ qty:  5,
 
 
 
-var search_input= document.getElementById("searchbar");
-function sEarch {
+// var search_input= document.getElementById("searchbar");
+// function sEarch {
 
-// var search = _.where(product, {name: search_input});
-// document.GetElementById("list").innerHTML= search;
-_.each(shop_list, function(num)
+// // var search = _.where(product, {name: search_input});
+// // document.GetElementById("list").innerHTML= search;
+// _.each(shop_list, function(num)
 
-		{ 
+// 		{ 
 
-		if  (search_input == num.name )
+// 		if  (product.nanme == num.name )
 
-			var itemlist =_.where(product, {name: search_input});
+// 			var itemlist =_.where(product, {name: search_input});
 
 
-		});
+// 		});
 
-document.write(itemlist);
-document.write(num);
+// document.write(itemlist);
+// document.write(num);
 
-}
+// }
 
 
